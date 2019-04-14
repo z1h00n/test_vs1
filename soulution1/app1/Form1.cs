@@ -16,5 +16,11 @@ namespace app1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello, world!);
+            MessageBox.Show("Hi, world!);
+        }
     }
 }
